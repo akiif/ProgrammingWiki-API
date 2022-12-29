@@ -1,6 +1,6 @@
 <div align="center" style="text-align:center">
 
-# [ProgrammingWiki-API](https://programmingwiki.herokuapp.com/)
+# [ProgrammingWiki-API](https://programmingwiki.onrender.com/)
 
 ### A REST API that serves programming concepts and offers a variety of filtering methods (random article, searching by title and tags)
 
@@ -10,11 +10,11 @@
 
 #### ProgrammingWiki-API does not require any API token, authorization or payment to work.
 
-## `API Open Endpoints`: https://programmingwiki.herokuapp.com/
+## `API Open Endpoints`: https://programmingwiki.onrender.com/
 
 ## Usage
 
-### `GET all the articles` [https://programmingwiki.herokuapp.com/articles](https://programmingwiki.herokuapp.com/articles)
+### `GET all the articles` [https://programmingwiki.onrender.com/articles](https://programmingwiki.onrender.com/articles)
 
 ```
 [
@@ -47,7 +47,7 @@
 
 ---
 
-### `GET a random article` [https://programmingwiki.herokuapp.com/random](https://programmingwiki.herokuapp.com/random)
+### `GET a random article` [https://programmingwiki.onrender.com/random](https://programmingwiki.onrender.com/random)
 
 ```
 [
@@ -66,11 +66,11 @@
 
 ---
 
-### `GET a single article by title:` [https://programmingwiki.herokuapp.com/articles?q=REST](https://programmingwiki.herokuapp.com/articles?q=REST)
+### `GET a single article by title:` [https://programmingwiki.onrender.com/articles?q=REST](https://programmingwiki.onrender.com/articles?q=REST)
 
 #### Add the title you want to search for in the URL parameters using 'q' key(i.e. Append a '?' to the url and append q=title, where title is the title you want to query).
 
-Example: https://programmingwiki.herokuapp.com/articles?q=Javascript
+Example: https://programmingwiki.onrender.com/articles?q=Javascript
 
 ```
 [
@@ -88,11 +88,11 @@ Example: https://programmingwiki.herokuapp.com/articles?q=Javascript
 ```
 ---
 
-### `GET articles by tags:` [https://programmingwiki.herokuapp.com/articles?tags=API&tags=Backend](https://programmingwiki.herokuapp.com/articles?tags=API&tags=Backend)
+### `GET articles by tags:` [https://programmingwiki.onrender.com/articles?tags=API&tags=Backend](https://programmingwiki.onrender.com/articles?tags=API&tags=Backend)
 
 #### Add the tags you want to search for in the URL parameters using 'tags' key (i.e. Append a '?' to the url and append tags=tag-name, where tag-name is the tag you want to query, if you have multiple tags to query then use & to separate the tags).
 
-Example: https://programmingwiki.herokuapp.com/articles?tags=API&tags=Backend
+Example: https://programmingwiki.onrender.com/articles?tags=API&tags=Backend
 
 
 ```
@@ -136,3 +136,14 @@ Some of the tags available are:
 -   Software-Development
 
 ---
+
+## Related: programmingwiki npm package
+
+### Install
+
+```sh
+npm install programmingwiki
+```
+### Refer: 
+- #### npm: [https://www.npmjs.com/package/programmingwiki](https://www.npmjs.com/package/programmingwiki)
+- #### github: [https://github.com/akiif/programmingwiki](https://github.com/akiif/programmingwiki)
